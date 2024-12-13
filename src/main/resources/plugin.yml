@@ -1,0 +1,16 @@
+name: skript-docs-extractor
+version: '1.0-SNAPSHOT'
+main: io.github.potarodev.skdoc.SkriptDocsExtractor
+api-version: '1.21'
+
+depend:
+  - "Skript"
+softdepend:
+  - "SkBee"
+  - "skript-reflect"
+
+commands:
+  dump:
+    permission: skdoc.dump
+    permission-message: u cant do that :(
+    usage: /dump [<addon>]
